@@ -1,0 +1,233 @@
+/*portfolio section start here*/
+.portfolio {
+    padding: 50px 0;
+    background-color: #F7F4FD;
+
+    &__toptext {
+        text-align: center;
+
+        h4 {
+            color: #A26000;
+            font-size: 28px;
+            font-weight: 500;
+            padding-top: 25px;
+
+        }
+
+        h2 {
+            font-weight: 500;
+            font-size: 42px;
+            color: #311566;
+            padding-top: 25px;
+        }
+
+        p {
+            width: 370px;
+            display: block;
+            margin: 0 auto;
+            padding-top: 25px;
+            color: #311566;
+            font-weight: 500;
+        }
+    }
+
+    &__middle {
+        &__wrapper {
+            background-color: #fff;
+            padding: 20px 10px;
+            border-radius: 20px;
+        }
+
+        padding-top: 100px;
+
+        &__left {
+            &__a {
+                color: #794700;
+                padding: 17px 35px;
+                background-color: #FFF4E5;
+                font-size: 18px;
+                font-weight: 700;
+                border-radius: 50px;
+            }
+
+            h2 {
+                color: #3A395E;
+                font-size: 36px;
+                font-weight: 500;
+                letter-spacing: .5px;
+                padding-top: 20px;
+            }
+
+            p {
+                color: #5C556B;
+                font-size: 14px;
+                width: 270px;
+                padding-top: 10px;
+                font-weight: 600;
+            }
+
+            &--modi {
+                color: #5A3E8E;
+                font-weight: 500;
+                font-size: 28px;
+                padding: 0;
+                letter-spacing: .5px;
+
+                &:hover {
+                    color: #5A3E8E;
+                }
+            }
+        }
+
+        &__right {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.portfolio__middle__a2 {
+    margin: 50px 0;
+
+    &__wrapper {
+        background-color: #fff;
+        padding: 20px 10px;
+        border-radius: 20px;
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+    }
+
+    &__right {
+        h2 {
+            color: #3A395E;
+            font-size: 36px;
+            font-weight: 500;
+            letter-spacing: .5px;
+            padding-top: 20px;
+        }
+
+        p {
+            color: #5C556B;
+            font-size: 14px;
+            width: 270px;
+            padding-top: 10px;
+            font-weight: 600;
+        }
+    }
+
+    &__a {
+        color: #5A29BF;
+        padding: 17px 35px;
+        background-color: #EFEAFA;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 50px;
+    }
+    &--modi {
+        color: #5A3E8E;
+        font-weight: 500;
+        font-size: 28px;
+        padding: 0;
+        letter-spacing: .5px;
+
+        &:hover {
+            color: #5A3E8E;
+        }
+    }
+
+}
+
+
+.portfolio__middle__a3 {
+    margin: 50px 0;
+
+    &__wrapper {
+        background-color: #fff;
+        padding: 20px 10px;
+        border-radius: 20px;
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+    }
+
+    &__right {
+        h2 {
+            color: #3A395E;
+            font-size: 36px;
+            font-weight: 500;
+            letter-spacing: .5px;
+            padding-top: 20px;
+        }
+
+        p {
+            color: #5C556B;
+            font-size: 14px;
+            width: 270px;
+            padding-top: 10px;
+            font-weight: 600;
+        }
+    }
+
+    &__a {
+        color: #175F2F;
+        padding: 17px 35px;
+        background-color: #E9F7E6;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 50px;
+    }
+    &--modi {
+        color: #5A3E8E;
+        font-weight: 500;
+        font-size: 28px;
+        padding: 0;
+        letter-spacing: .5px;
+
+        &:hover {
+            color: #5A3E8E;
+        }
+    }
+
+}
+.portfolio__bottom{
+    &__text{
+        text-align: center;
+        p{
+            width: 400px;
+            display: block;
+            margin: 0 auto;
+            color: #3A395E;
+            font-size: 24px;
+            font-weight: 500;
+            span{
+                color: #3A0AFF;
+            }
+        }
+    }
+    &__icon{
+        justify-content: center;
+        display: flex;
+        column-gap: 10px;
+        padding: 30px 0;
+        a{
+        padding: 20px;
+        border-radius: 50%;
+        }
+        &__1{
+            background-color: #FF458D;
+        }
+        &__2{
+            background: linear-gradient(#e66465, #9198e5);
+        }
+        &__3{
+            background-color: #0B56DF;
+        }
+
+    }
+}
+/*portfolio section end here*/

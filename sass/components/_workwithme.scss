@@ -1,0 +1,60 @@
+.workwithme {
+    background-color: #622DCF;
+    position: relative;
+    z-index: 1;
+
+    &__card1 {
+        position: relative;
+        padding: 200px 0 0 0;
+
+        h4 {
+            color: #09D4EA;
+            font-size: 24px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            width: 250px;
+            color: #fff;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            line-height: 43px;
+            font-size: 30px;
+            font-weight: 700;
+            padding-top: 20px;
+
+
+        }
+
+        p {
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 17px;
+            padding-top: 20px;
+            width: 440px;
+            letter-spacing: 1.5px;
+            line-height: 30px;
+        }
+
+        a {
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #F9696F;
+            font-size: 13px;
+            font-weight: 500;
+            letter-spacing: .5px;
+            text-transform: uppercase;
+            border-radius: 50px;
+            margin-top: 20px;
+        }
+    }
+
+    &__card2 {
+        position: relative;
+
+        img {
+            padding-top: 150px;
+        }
+    }
+}

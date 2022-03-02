@@ -1,0 +1,94 @@
+/*client part start here*/
+.client {
+    &__box {
+        justify-content: center;
+        margin-top: -119px;
+        align-items: center;
+        position: relative;
+        z-index: 5;
+    }
+    &__card1 {
+        background-color: #00FFFF;
+        margin-right: 20px;
+        padding: 70px 30px;
+        border-radius: 20px;
+        width: 215px;
+    }
+
+    &__card1 {
+        h4 {
+            color: #311567;
+            font-size: 45px;
+            font-weight: 900;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 16px;
+            text-align: center;
+            text-transform: uppercase;
+            line-height: 24px;
+            font-weight: 700;
+            color: #8C3A32;
+            margin-top: 20px;
+        }
+    }
+
+    &__card2 {
+        h4 {
+            color: #311567;
+            font-size: 45px;
+            font-weight: 900;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 16px;
+            text-align: center;
+            text-transform: uppercase;
+            line-height: 24px;
+            font-weight: 700;
+            color: #8C3A32;
+            margin-top: 20px;
+        }
+    }
+
+    &__card3 {
+        h4 {
+            color: #311567;
+            font-size: 45px;
+            font-weight: 900;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 16px;
+            text-align: center;
+            text-transform: uppercase;
+            line-height: 24px;
+            font-weight: 700;
+            color: #8C3A32;
+            margin-top: 20px;
+        }
+    }
+
+    &__card4 {
+        h4 {
+            color: #311567;
+            font-size: 45px;
+            font-weight: 900;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 16px;
+            text-align: center;
+            text-transform: uppercase;
+            line-height: 24px;
+            font-weight: 700;
+            color: #8C3A32;
+            margin-top: 20px;
+        }
+    }
+}
+/*client part end here*/
